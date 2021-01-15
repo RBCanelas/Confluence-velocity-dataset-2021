@@ -1,7 +1,4 @@
-# Confluence-velocity-dataset-2021
-Open dataset of post-processed ADV velocity fields for a set of open channel confluences
-
-This helps the reader to understand the organization of the provided velocity and bed topography/water level data.
+This readme.txt file helps the reader to understand the organization of the provided velocity and bed topography/water level data.
 
 All data are stored as ".mat" (Matlab supported files). There are 2 types of data.
 
@@ -13,7 +10,7 @@ The origin of the selected coordinate system in the horizontal plane (x−y) is 
 whereas the top of the bed sill was used as the origin of the vertical (z) axis, as described in the manuscript.
 
 For instance, file name "section_uvw_x_0150.mat" indicates that this data was measured along the lateral cross-section X=-1.50, 
-or 1.50 m upstream of the upstream junction corner.
+or 1.50 m upstream of the upstream juntion corner.
 
 Each file contains the matrices of mean velocities ("U"-longitudinal,"V"-transversal, and "W"-vertical velocity components) and mean TKE data ("kinerg").
 "X", "Y", "Z" are longitudinal, transversal and vertical coordinates (in meters), respectively.
